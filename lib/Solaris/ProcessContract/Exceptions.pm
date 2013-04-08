@@ -1,6 +1,6 @@
 package Solaris::ProcessContract::Exceptions;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # Standard modules
 use strict;

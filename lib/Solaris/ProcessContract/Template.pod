@@ -249,11 +249,11 @@ new one.
 
 =item L<Solaris::ProcessContract::Exceptions>
 
-=item L<libcontract(3)>
+=item L<libcontract(3)|http://docs.oracle.com/cd/E26505_01/html/816-5173/libcontract-3lib.html>
 
-=item L<contract(4)>
+=item L<contract(4)|http://docs.oracle.com/cd/E26505_01/html/816-5174/contract-4.html>
 
-=item L<process(4)>
+=item L<process(4)|http://docs.oracle.com/cd/E26505_01/html/816-5174/process-4.html>
 
 =back
 

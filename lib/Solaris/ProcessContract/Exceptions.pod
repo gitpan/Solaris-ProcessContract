@@ -46,7 +46,7 @@ will catch the others, too.
 
 =head2 Solaris::ProcessContract::Exception::XS
 
-An exception for anything that goes wrong when talking to L<libcontract(3)>.
+An exception for anything that goes wrong when talking to L<libcontract(3)|http://docs.oracle.com/cd/E26505_01/html/816-5173/libcontract-3lib.html>.
 
 =head2 Solaris::ProcessContract::Exception::Params
 

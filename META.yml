@@ -1,7 +1,7 @@
 ---
 abstract: 'Manage Solaris process contracts via libcontract'
 author:
-  - 'Danny Warren <perl.com>'
+  - 'Danny Warren <perl@dannywarren.com>'
 build_requires:
   ExtUtils::MakeMaker: 0
   Test::More: 0.98
@@ -25,8 +25,5 @@ requires:
   parent: 0.225
 resources:
   homepage: https://github.com/dannywarren/Solaris-ProcessContract
-  x_Respository:
-    type: git
-    url: git.com:dannywarren/Solaris-ProcessContract.git
-    web: https://github.com/dannywarren/Solaris-ProcessContract
-version: 1.00
+  repository: https://github.com/dannywarren/Solaris-ProcessContract
+version: 1.01

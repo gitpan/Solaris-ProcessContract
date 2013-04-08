@@ -1,7 +1,7 @@
 {
    "abstract" : "Manage Solaris process contracts via libcontract",
    "author" : [
-      "Danny Warren <perl.com>"
+      "Danny Warren <perl@dannywarren.com>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
@@ -43,11 +43,9 @@
    "release_status" : "stable",
    "resources" : {
       "homepage" : "https://github.com/dannywarren/Solaris-ProcessContract",
-      "x_Respository" : {
-         "type" : "git",
-         "url" : "git.com:dannywarren/Solaris-ProcessContract.git",
-         "web" : "https://github.com/dannywarren/Solaris-ProcessContract"
+      "repository" : {
+         "url" : "https://github.com/dannywarren/Solaris-ProcessContract"
       }
    },
-   "version" : "1.00"
+   "version" : "1.01"
 }

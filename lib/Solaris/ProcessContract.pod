@@ -4,7 +4,7 @@ Solaris::ProcessContract - Manage Solaris process contracts via libcontract
 
 =head1 VERSION
 
-1.00
+1.01
 
 =head1 SYNOPSIS
 
@@ -70,8 +70,8 @@ Solaris::ProcessContract - Manage Solaris process contracts via libcontract
 
 =head1 DESCRIPTION
 
-This module allows you to use the L<libcontract(3)> facility to manage contracts
-for your process and any child processes you create.
+This module allows you to use the L<libcontract(3)|http://docs.oracle.com/cd/E26505_01/html/816-5173/libcontract-3lib.html>
+facility to manage contracts for your process and any child processes you create.
 
 The process contract system on solaris allows you to group together related
 processes for monitoring and resource limiting.
@@ -250,7 +250,8 @@ you can just get it directly instead of using L</"get_latest_contract">.
 
 =head1 FLAGS
 
-The flags used by L<libcontract(3)> are available for use in this module.
+The flags used by L<libcontract(3)|http://docs.oracle.com/cd/E26505_01/html/816-5173/libcontract-3lib.html>
+are available for use in this module.
 
 They are not exported by default, so you will need to export them if you need
 to use them:
@@ -351,6 +352,16 @@ This module exports nothing by default.
 
 See L</"FLAGS"> for a list of available exports.
 
+=head1 INSTALLATION
+
+The L<libcontract(3)|http://docs.oracle.com/cd/E26505_01/html/816-5173/libcontract-3lib.html> 
+facility was first made available on Solaris 10, so you need to be running at
+least that to install this module.
+
+This module will fail to install if it cannot find C<libcontract> while running
+C<Makefile.PL>, but does no other checks to forcefully validate your operating
+system and version.
+
 =head1 TODO
 
 Right now, this module gives you what you need to control the contract system
@@ -374,11 +385,11 @@ filesystem so that you could query both.
 
 =item L<Solaris::ProcessContract::Exceptions>
 
-=item L<libcontract(3)>
+=item L<libcontract(3)|http://docs.oracle.com/cd/E26505_01/html/816-5173/libcontract-3lib.html>
 
-=item L<contract(4)>
+=item L<contract(4)|http://docs.oracle.com/cd/E26505_01/html/816-5174/contract-4.html>
 
-=item L<process(4)>
+=item L<process(4)|http://docs.oracle.com/cd/E26505_01/html/816-5174/process-4.html>
 
 =back
 
